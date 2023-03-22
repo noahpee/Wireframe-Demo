@@ -1,3 +1,7 @@
+body {
+    overflow-y: hidden;
+}
+
 header {
     width: 1200px;
     margin: 0 auto;
@@ -10,7 +14,13 @@ header {
 }
 
 ul {
+    display: flex;
     text-align: center;
+    margin: 0 auto;
+    width: 500px;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .topBox {
@@ -42,6 +52,10 @@ ul {
     text-align: center;
 }
 
+.catBoxText {
+    margin: 10px;
+}
+
 .bottomText {
     width: 1000px;
     margin: 0 auto;
@@ -50,4 +64,5 @@ ul {
 footer {
     display: flex;
     justify-content: center;
+    margin: 0px;
 }
