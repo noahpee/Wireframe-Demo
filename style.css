@@ -38,6 +38,11 @@ ul {
     padding: 10px;
 }
 
+.topText:hover {
+    background-color: rgb(250, 219, 178);
+    border-radius: 15px;
+}
+
 .threeSmallCats {
     display: flex;
     overflow: scroll;
